@@ -31,7 +31,7 @@ frame.pack(expand = True)
 
 passlog_lb = Label(
     frame,
-    text='Введите логин и пароль через запятую'
+    text='Введите логин и пароль через проблем: '
 )
 passlog_lb.grid(row=3, column=1)
 
