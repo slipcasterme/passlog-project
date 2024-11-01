@@ -20,7 +20,7 @@ window = Tk()
 
 window.title('Passlog v1')
 
-window.geometry('1080x540')
+window.geometry('560x540')
 
 frame = Frame(
     window,
@@ -31,7 +31,7 @@ frame.pack(expand = True)
 
 passlog_lb = Label(
     frame,
-    text='Введите логин и пароль через проблем: '
+    text='Введите логин и пароль через пробел: '
 )
 passlog_lb.grid(row=3, column=1)
 
